@@ -1,0 +1,23 @@
+<nav role="navigation" class="navbar navbar-static-top navbar-default nav-masthead" >
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display-->
+    <div class="navbar-header">
+      <button type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" class="navbar-toggle collapsed">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="#/" class="navbar-brand">newRouter Demo</a>
+      <!-- Collect the nav links, forms, and other content for toggling-->
+    </div>
+    <div id="bs-example-navbar-collapse-1" class="collapse navbar-collapse">
+      <form class="navbar-form navbar-right" data-role="search" >
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search" ng-model="vm.searchTerm">
+        </div>
+        <button type="submit" class="btn btn-default" ng-link="search({vm.searchTerm})">Submit</button>
+      </form>
+    </div>
+  </div>
+</nav>

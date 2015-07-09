@@ -1,0 +1,14 @@
+
+.navbar.navfont {
+  font-weight: 400;
+  font-size: 14px;
+  text-align: left;
+  text-shadow: .5px .5px .5px #ffffff; }
+.navbar.nav-masthead {
+  background-color: #06af45; }
+.navbar.nav-masthead .navbar-brand {
+  color: white; }
+
+.navbar-nav > li > a {
+  padding: 4px 15px; }
+

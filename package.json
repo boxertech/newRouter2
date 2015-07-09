@@ -24,7 +24,9 @@
     "webpack": "^1.9.11"
   },
   "dependencies": {
-    "angular": "^1.4.1",
+    "angular": "^1.4.2",
+    "angular-new-router": "^0.5.3",
+    "bootstrap": "^3.3.5",
     "lodash": "^3.9.3",
     "normalize.css": "^3.0.3"
   }

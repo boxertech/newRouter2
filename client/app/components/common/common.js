@@ -1,8 +1,8 @@
-import {Notes} from './noteList.factory';
+import {Listings} from './listing.factory.js';
 import angular from 'angular';
 
 let commonModule = angular.module('common', [])
-  .factory('Notes', Notes);
+  .factory('Listings', Listings);
 
 
 export {commonModule};

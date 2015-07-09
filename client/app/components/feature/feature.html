@@ -1,0 +1,21 @@
+<!--<div class="note">-->
+  <!--<p>{{vm.noteData.content}}</p>-->
+<!--</div>-->
+<div class="other-feature">
+  <div>
+    <div class="crop">
+      <img src="images/{{vm.featureData.image}}" alt="test" >
+    </div>
+    <div class="splash">{{vm.featureData.city}}</div>
+    <div class="feature-listing">
+      <div class="feature-head">{{vm.featureData.price | currency:"$":0}}</div>
+      <div class="feature-property">{{vm.featureData.beds}} Bedrooms</div>
+      <div class="feature-property">{{vm.featureData.baths}} Baths</div>
+      <div class="feature-property">{{vm.featureData.sqft}} Sq. Ft.</div>
+      <div class="feature-description">
+        <span class="subhead">Description</span>
+        <p>{{vm.featureData.description}}</p>
+      </div>
+    </div>
+  </div>
+</div>

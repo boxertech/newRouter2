@@ -1,0 +1,22 @@
+<!--<section class="home">-->
+  <!--<h1>hey I am home</h1>-->
+  <!--<feature-maker></feature-maker>-->
+  <!--<feature-list></feature-list>-->
+<!--</section>-->
+<div class="featured-wrapper">
+  <div class="ribbon">
+    <span>Featured</span>
+    <div class="sidebar-link" ng-click="vm.toggleSidebar()">more...</div>
+  </div>
+  <!-- primaryFeatured -->
+  <primary-feature></primary-feature>
+
+  <!-- Featured List -->
+  <feature-list></feature-list>
+
+  <section class="sidebar">
+    <div class="sidebar-container" ui-view="sidebarContainer">
+
+    </div>
+  </section>
+</div>

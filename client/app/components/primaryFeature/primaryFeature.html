@@ -1,0 +1,18 @@
+  <!-- primaryFeatured -->
+  <section class="featured primary-feature">
+    <div>
+      <img src="images/{{vm.primeFeature.image}}" alt="test" >
+      <div class="splash">{{vm.primeFeature.city}}</div>
+      <div class="feature-listing">
+        <div class="feature-head">{{vm.primeFeature.price | currency:"$":0}}</div>
+        <div class="feature-property">{{vm.primeFeature.beds}} Bedrooms</div>
+        <div class="feature-property">{{vm.primeFeature.baths}} Baths</div>
+        <div class="feature-property"><span ng-bind="vm.primeFeature.sqft"></span> Sq. Ft.</div>
+        <div class="feature-description">
+          <span class="subhead">Description</span>
+          <p>{{vm.primeFeature.description}}</p>
+        </div>
+      </div>
+    </div>
+  </section>
+

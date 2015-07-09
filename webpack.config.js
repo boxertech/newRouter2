@@ -12,5 +12,8 @@ module.exports = {
       { test: /\.html$/, loader: 'raw' },
       { test: /\.css$/, loader: 'style!css' }
     ]
+  },
+  resolve: {
+    modulesDirectories: ['node_modules', 'client']
   }
 };

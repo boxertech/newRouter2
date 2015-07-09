@@ -1,6 +1,8 @@
-import {homeModule} from './home/home';
+import {mainModule} from './main/main';
+import {navbarModule} from './navbar/navbar';
+import {primaryFeatureModule} from './primaryFeature/primaryFeature';
 import {noteMakerModule} from './noteMaker/noteMaker';
-import {noteListModule} from './noteList/noteList';
-import {noteModule} from './note/note';
+import {featureListModule} from './featureList/featureList';
+import {featureModule} from './feature/feature';
 
-export {homeModule, noteMakerModule, noteListModule, noteModule};
+export {mainModule, navbarModule, primaryFeatureModule, noteMakerModule, featureListModule, featureModule};

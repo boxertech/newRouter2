@@ -1,0 +1,37 @@
+
+.other-feature {
+    flex: 1 1 33%;
+    padding: 6px;
+    position: relative; }
+.other-feature .crop {
+    width: 100%;
+    height: 240px;
+    overflow: hidden; }
+.other-feature .crop img {
+    width: 100%; }
+.other-feature .splash {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+    position: absolute;
+    top: 200px;
+    left: 30px; }
+.other-feature .feature-listing {
+    float: left;
+    width: 100%; }
+.other-feature .feature-listing .feature-head {
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center; }
+.other-feature .feature-listing .feature-property {
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0 20px; }
+.other-feature .feature-listing .feature-description {
+    margin: 5px 20px; }
+.other-feature .feature-listing .feature-description .subhead {
+    font-weight: bold; }
+.other-feature .feature-listing .feature-description p {
+    margin-top: .5em; }
+
